@@ -1,0 +1,473 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PC" at "2026-05-19T03:15:25.1685994Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'es' Physical Memory: 32538 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-19T03:15:25Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/PC/Plataforma 3D MOTORES
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58776
+-licensingIpc
+LicenseClient-PC
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/PC/Plataforma 3D MOTORES
+C:/Users/PC/Plataforma 3D MOTORES
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [532]  Target information:
+
+Player connection [532]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2701085162 [EditorId] 2701085162 [Version] 1048832 [Id] WindowsEditor(7,PcGero) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [532] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [532] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Plataforma 3D MOTORES/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12086 MB
+    Driver:   32.0.15.9579
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001650 seconds.
+- Loaded All Assemblies, in  0.351 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              f1d27165a4f74a5790d8be2883981450
+  Correlation Id:          a3524b2d19aac8f90a515bef7c03d19f
+  External correlation Id: 5407973538826561530
+  Machine Id:              HszR+TC4f9GrCr485VK9zudsoGM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-PC" (connect: 0.00s, validation: 0.00s, handshake: 1.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-PC-notifications" at "2026-05-19T03:15:26.2891198Z"
+[Licensing::Module] Licensing Background thread has ended after 1.12s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 685ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (308ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674120564184-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1377ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (725ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6195 unused Assets / (4.2 MB). Loaded Objects now: 7011.
+Memory consumption went from 158.6 MB to 154.4 MB.
+Total: 6.665000 ms (FindLiveObjects: 0.531400 ms CreateObjectMapping: 0.508700 ms MarkObjects: 4.057400 ms  DeleteObjects: 1.566300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16771.290070 seconds.
+  path: Assets/Scenes/NIVEL 3.unity
+  artifactKey: Guid(2f7d77cfe789f9c45bf3c627393632dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/NIVEL 3.unity using Guid(2f7d77cfe789f9c45bf3c627393632dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57d6b94ce324e3101ab6ccf652c5700b') in 0.0668933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3527.251745 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR@Treadmill Running.fbx
+  artifactKey: Guid(62b516fd1c1ba1540924b1e6ef835352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR@Treadmill Running.fbx using Guid(62b516fd1c1ba1540924b1e6ef835352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a54883cf9005ed34b704694af2a419d') in 0.5479198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.394958 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR@Treadmill Running.fbx
+  artifactKey: Guid(62b516fd1c1ba1540924b1e6ef835352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR@Treadmill Running.fbx using Guid(62b516fd1c1ba1540924b1e6ef835352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc30ec6a2366b58649d6cc1f8fd22f79') in 0.0666235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.222828 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR.zip
+  artifactKey: Guid(07352db8375660f40aae51b307b7115c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR.zip using Guid(07352db8375660f40aae51b307b7115c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5465e9a49bd9f6da37f099322dc1b9b5') in 0.0035469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025291 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR.zip
+  artifactKey: Guid(07352db8375660f40aae51b307b7115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR.zip using Guid(07352db8375660f40aae51b307b7115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daaf4433a367991e3d6d0439aa9f7fe7') in 0.0010657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.814066 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR.fbx
+  artifactKey: Guid(46b4e48c3869f81469b4478cf8327144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR.fbx using Guid(46b4e48c3869f81469b4478cf8327144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '078cab39b8f458d83260798e6be69645') in 0.053823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.903256 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR.fbx
+  artifactKey: Guid(46b4e48c3869f81469b4478cf8327144) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR.fbx using Guid(46b4e48c3869f81469b4478cf8327144) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57b8b304d299fa97762588060737f0df') in 0.0113714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.357698 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR.dae
+  artifactKey: Guid(953564489688d1143a14c3a596bd7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR.dae using Guid(953564489688d1143a14c3a596bd7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfab5b6bca99a2ee232aab16c23bd51f') in 0.0473715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.899946 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR.dae
+  artifactKey: Guid(953564489688d1143a14c3a596bd7c12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR.dae using Guid(953564489688d1143a14c3a596bd7c12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55b83a49b2fb98ed928ac7a6d4eee31f') in 0.013237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.703299 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1001_Diffuse.png
+  artifactKey: Guid(562778956df850f4384c53d78cca772b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1001_Diffuse.png using Guid(562778956df850f4384c53d78cca772b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '926eee84f32cc35a41528edd462f7489') in 0.0421615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Glossiness.png
+  artifactKey: Guid(8a38e368daf97bc47af7512184b0e449) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Glossiness.png using Guid(8a38e368daf97bc47af7512184b0e449) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ac1c3c60a9da8e4fdba1775dd52bf25') in 0.0133529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1001_Specular.png
+  artifactKey: Guid(52aebe36d5d631343b0a3d0a14dcc87b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1001_Specular.png using Guid(52aebe36d5d631343b0a3d0a14dcc87b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56dcac91f9875c8f54f0fb0333137122') in 0.0125999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Diffuse.png
+  artifactKey: Guid(a6cda89133c95ed47a901267427ebb2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Diffuse.png using Guid(a6cda89133c95ed47a901267427ebb2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '501bde55babcc26f4be01583bbe70f55') in 0.0087456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Normal.png
+  artifactKey: Guid(9d57bf187a808634b94b4b3a8cadf56d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Normal.png using Guid(9d57bf187a808634b94b4b3a8cadf56d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90ad8cf420a2f206658609a0a895439d') in 0.0080937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR
+  artifactKey: Guid(605dcd157cf147f40aba3337d1e6f4d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR using Guid(605dcd157cf147f40aba3337d1e6f4d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe3e3f008370abf20db9fa1d84a85022') in 0.0028681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1001_Glossiness.png
+  artifactKey: Guid(e8ba5d8d50c506b4d98b06240e3983bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1001_Glossiness.png using Guid(e8ba5d8d50c506b4d98b06240e3983bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2399a4bd255c7941da5ef97e0a2f44c') in 0.0059899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.965505 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR
+  artifactKey: Guid(605dcd157cf147f40aba3337d1e6f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR using Guid(605dcd157cf147f40aba3337d1e6f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1585ac07f9187776abd01d0460e2152') in 0.0006806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060406 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/Ch10_nonPBR.dae
+  artifactKey: Guid(d1e0548f3df2af947ac8fa25343be0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/Ch10_nonPBR.dae using Guid(d1e0548f3df2af947ac8fa25343be0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19c5801d08bfd7cb553995c28d74be98') in 0.0387635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.737333 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures
+  artifactKey: Guid(2556ee06cc7c9004fabdb677977648ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures using Guid(2556ee06cc7c9004fabdb677977648ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc766a353aa31a2125d1e6100a9e46a0') in 0.0010457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.519860 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1001_Normal.png
+  artifactKey: Guid(fed890b9f9b343a4daac323aee98c219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1001_Normal.png using Guid(fed890b9f9b343a4daac323aee98c219) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e90742776de095c1f355abb9acf86f') in 0.0187703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Normal.png
+  artifactKey: Guid(9d57bf187a808634b94b4b3a8cadf56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Normal.png using Guid(9d57bf187a808634b94b4b3a8cadf56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2dad1a5a90a3837f221829b71c79708') in 0.0090694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Glossiness.png
+  artifactKey: Guid(8a38e368daf97bc47af7512184b0e449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Ch10_nonPBR/textures/Ch10_1002_Glossiness.png using Guid(8a38e368daf97bc47af7512184b0e449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51ff2ab3002511006c0e17ca971769eb') in 0.0089306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 689.394137 seconds.
+  path: Assets/MODELOS/PLYAER/Male_Casual.fbx
+  artifactKey: Guid(6db330e872cd01740b5e1b0adff88fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Male_Casual.fbx using Guid(6db330e872cd01740b5e1b0adff88fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a655c0ac1f5c696e8a0a04e09236ab2') in 0.0743573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MODELOS/PLYAER/Male_Shirt.fbx
+  artifactKey: Guid(eb07f80900032bd4caa222c3afc4f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Male_Shirt.fbx using Guid(eb07f80900032bd4caa222c3afc4f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c400f04659883e0f3b1ce948b3c9341') in 0.094391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELOS/PLYAER/Male_Suit.fbx
+  artifactKey: Guid(bf46444c27b5aee4f9196ee21cd5d3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Male_Suit.fbx using Guid(bf46444c27b5aee4f9196ee21cd5d3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cce1d9252adc0c348e36b35ef152db89') in 0.0733317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MODELOS/PLYAER/Smooth_Male_Shirt.fbx
+  artifactKey: Guid(557c4b4186e1a364ba0e075b856f9d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Smooth_Male_Shirt.fbx using Guid(557c4b4186e1a364ba0e075b856f9d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f7ca48f4bd3861214083ef42a411646') in 0.0703905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MODELOS/PLYAER/Smooth_Male_LongSleeve.fbx
+  artifactKey: Guid(a6bb1242600885d4e9a7a05ad1b72212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Smooth_Male_LongSleeve.fbx using Guid(a6bb1242600885d4e9a7a05ad1b72212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a36406b260e58db36f17993f28d973d1') in 0.072115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MODELOS/PLYAER/Smooth_Male_Suit.fbx
+  artifactKey: Guid(755ed9f2337f471448577196dd191d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELOS/PLYAER/Smooth_Male_Suit.fbx using Guid(755ed9f2337f471448577196dd191d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '094b06ab95eed7de103c8be7ad30e2a2') in 0.0589831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.295351 seconds.
+  path: Assets/MODELOS/PLYAER/Male_Casual.fbx
+  artifactKey: Guid(6db330e872cd01740b5e1b0adff88fae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Male_Casual.fbx using Guid(6db330e872cd01740b5e1b0adff88fae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1036652ae8bd93170dcee5d95d05e31f') in 0.0201102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODELOS/PLYAER/Smooth_Male_Casual.fbx
+  artifactKey: Guid(5452ec7d2ddeb1247a91d9047beebbae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Smooth_Male_Casual.fbx using Guid(5452ec7d2ddeb1247a91d9047beebbae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62ae680ae777243b28fa71ffd2867793') in 0.0188964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELOS/PLYAER/Smooth_Male_Suit.fbx
+  artifactKey: Guid(755ed9f2337f471448577196dd191d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Smooth_Male_Suit.fbx using Guid(755ed9f2337f471448577196dd191d3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87d5e19f4eda8791ad840733872bbf15') in 0.0224678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELOS/PLYAER/Smooth_Male_LongSleeve.fbx
+  artifactKey: Guid(a6bb1242600885d4e9a7a05ad1b72212) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MODELOS/PLYAER/Smooth_Male_LongSleeve.fbx using Guid(a6bb1242600885d4e9a7a05ad1b72212) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9337c8a2bca404492d41ba53ac18e96') in 0.0214342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
